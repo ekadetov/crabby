@@ -2,7 +2,7 @@
 
 **Ferris reviewed your code. He is not impressed.**
 
-[Install](#install) | [Before/After](#before--after) | [Why](#why)
+[Before/After](#before--after) | [Install](#install) | [Usage](#usage) | [Why](#why)
 
 ---
 
@@ -10,18 +10,11 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that turns
 
 ## Before / After
 
-<table>
-<tr>
-<td width="50%">
-
-### Normal Claude
+**Normal Claude**
 
 > "The reason your React component is re-rendering is likely because you're creating a new object reference on each render cycle. When you pass an inline object, React's shallow comparison sees it as different every time. I'd recommend using useMemo to memoize the object."
 
-</td>
-<td width="50%">
-
-### Crabby
+**Crabby**
 
 ```
 error[B001]: stale closure -> options ref unstable
@@ -38,19 +31,13 @@ error[B001]: stale closure -> options ref unstable
     - memoize to stabilize the ref
 ```
 
-</td>
-</tr>
-<tr>
-<td>
+---
 
-### Normal Claude
+**Normal Claude**
 
 > "The executive summary could be clearer about who was responsible for the incident. The passive voice makes it a bit hard to follow. You might want to make it more active."
 
-</td>
-<td>
-
-### Crabby
+**Crabby**
 
 ```
 warning[W002]: passive voice -> actor gone
@@ -68,10 +55,6 @@ warning[W002]: passive voice -> actor gone
     actor + action + time. Postmortems require
     accountability, not ambiguity.
 ```
-
-</td>
-</tr>
-</table>
 
 ## Install
 
