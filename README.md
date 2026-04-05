@@ -1,18 +1,13 @@
-<p align="center">
+<div align="center">
   <img src="assets/crabby.png" width="160" alt="Crabby mascot" />
-</p>
-
-<h1 align="center">crabby</h1>
-
-<p align="center">
-  <strong>Ferris reviewed your code. He is not impressed.</strong>
-</p>
-
-<p align="center">
-  <a href="#install">Install</a> &bull;
-  <a href="#before--after">Before/After</a> &bull;
-  <a href="#why">Why</a>
-</p>
+  <h1>crabby</h1>
+  <p><strong>Ferris reviewed your code. He is not impressed.</strong></p>
+  <p>
+    <a href="#install">Install</a> &bull;
+    <a href="#before--after">Before/After</a> &bull;
+    <a href="#why">Why</a>
+  </p>
+</div>
 
 ---
 
