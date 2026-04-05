@@ -159,6 +159,21 @@ Full taxonomy in [crabby/CODES.md](crabby/CODES.md).
 
 They compose. Use caveman for conversation. Use crabby when something needs fixing.
 
+## Show HN
+
+**Title:** Show HN: Crabby - Claude Code skill that reviews code like the Rust compiler (grumpy crab edition)
+
+**Text:**
+I built a Claude Code skill called crabby that makes Claude output diagnostics in rustc error format - severity codes, location arrows, causation spans, and a paste-able fix every time. The twist: Claude becomes Ferris the crab, grumpy and unimpressed, but technically precise.
+
+The format works for code review, writing review, architecture, strategy - anything you submit. The "writing review" example tends to surprise people: it flags passive voice in a postmortem with the exact same error[W002] format as a SQL injection.
+
+https://github.com/ekadetov/crabby
+
+Install: `git clone https://github.com/ekadetov/crabby.git && cp -r crabby/crabby ~/.claude/skills/crabby`
+
+Trigger with /crabby or "crabby this". It composes well with caveman (JuliusBrussee/caveman) - caveman for conversation, crabby when something needs fixing.
+
 ## License
 
 MIT - see [LICENSE](LICENSE)
