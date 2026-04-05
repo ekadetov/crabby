@@ -4,7 +4,7 @@
 
 **Ferris reviewed your code. He is not impressed.**
 
-[Before/After](#before--after) | [Install](#install) | [Usage](#usage) | [Why](#why)
+[Before/After](#before--after) | [Install](#install) | [Usage](#usage) | [Why](#why) | [Error Codes](#error-code-namespaces)
 
 ---
 
