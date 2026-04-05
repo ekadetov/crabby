@@ -1,5 +1,7 @@
 # 🦀 crabby
 
+![Crabby mascot](assets/crabby.png)
+
 **Ferris reviewed your code. He is not impressed.**
 
 [Before/After](#before--after) | [Install](#install) | [Usage](#usage) | [Why](#why)
