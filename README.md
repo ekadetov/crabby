@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="crabby/crabby.png" width="160" alt="Crabby mascot" />
+  <img src="assets/crabby.png" width="160" alt="Crabby mascot" />
 </p>
 
 <h1 align="center">crabby</h1>
@@ -144,7 +144,6 @@ Full taxonomy in [crabby/CODES.md](crabby/CODES.md).
 | `C###` | Complexity | C002: cyclomatic complexity, C003: deep nesting |
 | `L###` | Logic | L001: always-true condition, L003: missing edge case |
 | `T###` | Testing | T001: testing implementation, T004: mock too broad |
-
 
 ## License
 
